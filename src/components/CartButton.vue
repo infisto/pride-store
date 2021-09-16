@@ -18,7 +18,7 @@ export default {
   align-items: center;
   position: absolute;
   bottom: 0;
-  span {
+  p {
     padding: 0 1.1rem;
   }
 }
