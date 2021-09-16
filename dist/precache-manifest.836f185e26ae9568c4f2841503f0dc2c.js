@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7feab1e94abc20c1b993",
-    "url": "/pride/css/app.3057a1d9.css"
+    "revision": "0487a8cda8ba245bcecb",
+    "url": "/pride/css/app.cf585d00.css"
   },
   {
     "revision": "351a6b86459a0640701b",
@@ -120,12 +120,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pride/img/image4.22e63602.jpg"
   },
   {
-    "revision": "e4bae327d8fbbc5b6d9a206864e25e68",
+    "revision": "90cfc21392a7ac2673888d77a6494d19",
     "url": "/pride/index.html"
   },
   {
-    "revision": "7feab1e94abc20c1b993",
-    "url": "/pride/js/app.a103fe42.js"
+    "revision": "0487a8cda8ba245bcecb",
+    "url": "/pride/js/app.3563aed3.js"
   },
   {
     "revision": "351a6b86459a0640701b",

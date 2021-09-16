@@ -1,7 +1,7 @@
 <template>
   <div class="cart-button__wrapper">
     <button class="cart-button__minus" @click="$emit('removeProduct')"></button>
-    <p>{{counter}} шт</p>
+    <span>{{counter}} шт</span>
     <button class="cart-button__plus" @click="$emit('addProduct')"></button>
   </div>
 </template>
@@ -18,7 +18,7 @@ export default {
   align-items: center;
   position: absolute;
   bottom: 0;
-  p {
+  span {
     padding: 0 1.1rem;
   }
 }
