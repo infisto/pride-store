@@ -88,26 +88,21 @@ export default {
   text-align: center;
   align-items: center;
   transition: .5s;
-
   &:hover {
     box-shadow: -1px -3px 34px 8px rgba(34, 60, 80, 0.2);
   }
-
   &:not(:last-child) {
     margin-right: 20px;
   }
-
   svg {
     position: absolute;
     top: 21px;
     right: 17px;
     cursor: pointer;
   }
-
   input[type="checkbox"] {
     display: none;
   }
-
   input[type="checkbox"]:checked + label {
     svg {
       path {
@@ -115,33 +110,26 @@ export default {
       }
     }
   }
-
   picture {
     display: flex;
     justify-content: center;
     width: 305px;
     height: 240px;
     margin-bottom: 20px;
-
     img {
       object-fit: scale-down;
     }
   }
-
   .cart-product__description {
     text-align: left;
-
     strong {
       font-size: 20px;
     }
-
     .cart-product__discount {
       color: $main-red;
-
       small {
         color: $price-sale;
         position: relative;
-
         &:before {
           content: "";
           position: absolute;
@@ -154,13 +142,11 @@ export default {
         }
       }
     }
-
     p {
       margin-top: 10px;
       line-height: 20px;
     }
   }
-
   .btn {
     position: absolute;
     bottom: 0;
